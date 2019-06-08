@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# mouse callback function
+########### mouse callback function #################################################
 def draw_circle(event,x,y,flags,param):
     if event == cv2.EVENT_LBUTTONDBLCLK:
         cv2.circle(img,(x,y),200,(255,0,0),-1)#### these are the perameter like x,y, radius,colour,thickness####
